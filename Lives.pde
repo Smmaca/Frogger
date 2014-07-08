@@ -7,4 +7,11 @@ void lives ()
 //    fill (255, 0, 0);
 //    ellipse ((i+1)*30, 25, 20, 20);
   }
+  
+  if (timeout == true)
+  {
+    lives--;
+    timeout = false;
+    timereset = true;
+  }
 }

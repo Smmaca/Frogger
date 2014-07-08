@@ -120,7 +120,7 @@ class Turtle
       }
     }
     
-    println (f);
+    //println (f);
   }
   
   void display ()

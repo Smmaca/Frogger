@@ -126,6 +126,7 @@ void draw ()
   
   home();
   lives();
+  timer();
 
   // River Drift
   if (rdrift == true) // Log drift
